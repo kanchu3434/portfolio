@@ -1,0 +1,59 @@
+.profile-img{position: relative;
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
+    background: #FFF;
+    padding: 3px;
+    
+}
+.heroin{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+}
+.heroin h1{
+    text-align: center;
+    width: 70%;
+    font-size: 50px;
+    font-weight: 400;
+}
+.heroin h1 span{
+    background: linear-gradient(267deg,#DA7C25 0.36%,#B923E1 102.06%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.heroin p{
+    width: 50%;
+    text-align: center;
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.heroin-action{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 23px;
+    font-weight: 489;
+    margin-bottom: 50px;
+}
+.heroin-connect{
+    padding: 25px 75px;
+    border-radius: 50px;
+    background: linear-gradient(267deg,#DA7C25 0.36%,#B923E1 102.06%);
+    cursor: pointer;
+}
+.heroin-resume{
+    padding: 25px 75px;
+    border-radius: 50px;
+    border: 2px solid #FFF;
+    cursor: pointer;
+}
+.heroin-connect:hover{
+    border: 2px solid white;
+}
+.heroin-resume:hover{
+    border-color:#B415FF ;
+}
