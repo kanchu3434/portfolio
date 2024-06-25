@@ -13,7 +13,7 @@ const Contact = () => {
       <div className="contact-section">
         <div className="contact-left">
           <h1>Let's talk</h1>
-          <p> I am curently available to tale job</p>
+          <p> I am curently available to take job</p>
           <div className="contact-details">
             <div className="contact-detail">
               <img src={mail_icon} alt="" /><p>kanchankotkat001@gmail.com</p>
@@ -33,7 +33,7 @@ const Contact = () => {
           <input type="text" placeholder='Enter your email' name='email' />
           <label htmlFor="">Write your message here</label>
           <textarea name="message" rows="8" placeholder='enter your message'></textarea>
-          <button className="contact-submit" type='submit'></button>
+          <button className="contact-submit" type='submit'>Submit now</button>
         </from>
       </div>
     </div>
