@@ -1,14 +1,14 @@
 import React from 'react'
 import "./Footer.css"
-import footer_logo from "../../assets/footer-logo"
-import user_icon from "../../assets/user-icon"
+import footer_logo from "../../assets/footer.png"
+import user_icon from "../../assets/people.png"
  
 export const Footer = () => {
   return (
     <div className='footer'>
         <div className="footer-top">
             <div className="footer-to-left">
-                <img src={footer_logo} alt="" />
+                <img src={footer_logo} alt="" /> kanchan
                 <p>I am frontend developer ,</p>
             </div>
             <div className="footer-top-right">

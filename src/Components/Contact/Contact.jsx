@@ -6,7 +6,7 @@ import call_icon from "../../assets/call.png";
 
 const Contact = () => {
   return (
-    <div className="contact">
+    <div id='contact' className="contact">
       <div className="contact-tittle">
         <h1>Get in touch</h1>
       </div>
